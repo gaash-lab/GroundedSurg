@@ -216,7 +216,7 @@ If you use GroundedSurg, please cite:
 ## ✉ Contact
 
 **Abrar Ul Riyaz**  
-https://abrarulriyaz.vercel.app
+https://abrarulriyaz.vercel.app<br>
 Gaash Research Lab  
 NIT Srinagar  
 
