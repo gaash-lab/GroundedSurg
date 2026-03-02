@@ -215,12 +215,11 @@ If you use GroundedSurg, please cite:
 
 ## ✉ Contact
 
-For questions:
-Abrar ul Riyaz
-https://abrarulriyaz.vercel.app
+**Abrar Ul Riyaz**  
 Gaash Research Lab  
 NIT Srinagar  
 
+🌐 Website: https://abrarulriyaz.vercel.app
 ---
 
 ## ⭐ If you find this work useful, please consider starring the repository.
