@@ -156,10 +156,10 @@ GroundedSurg/
 
 ---
 
-## 📸 Qualitative Results
+## Bencharmark overview
 
 ![Qualitative Results](assets/benchmark_overview.png)
-
+## 📸 Qualitative Results
 
 ![Qualitative Results](assets/qualitative_results.png)
 
