@@ -180,17 +180,77 @@ For segmentation backend:
 python Model_Evaluation_Scripts/Segmentation/sam3.py
 ```
 
+---## 📦 Installation
+
+> ⚠️ Note: Different Vision-Language Models may require separate environments depending on their official repositories.  
+> We recommend creating dedicated environments per model when necessary.
+
 ---
 
-## 📦 Installation
+### 1️⃣ Create Conda Environment
 
 ```bash
 conda create -n groundedsurg python=3.10
 conda activate groundedsurg
-pip install -r requirements.txt
 ```
 
 ---
+
+### 2️⃣ Install Core Dependencies
+
+Install PyTorch (adjust CUDA version if needed):
+
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+Install additional dependencies:
+
+```bash
+pip install transformers accelerate
+pip install opencv-python
+pip install numpy scipy tqdm
+pip install pillow matplotlib
+pip install scikit-image
+```
+
+---
+
+### 3️⃣ Install SAM3 Backend
+
+GroundedSurg uses a frozen SAM-based segmentation backend.
+
+Clone the official SAM3 repository:
+
+```bash
+git clone https://github.com/facebookresearch/sam3
+```
+
+Follow the installation instructions from the official repository.
+
+---
+
+### 4️⃣ Download SAM3 Checkpoint
+
+Download the pretrained SAM3 checkpoint from the official repository.
+
+After downloading, update the checkpoint path inside:
+
+```
+Model_Evaluation_Scripts/Segmentation/sam3.py
+```
+
+---
+
+## 🔎 Tested Environment
+
+GroundedSurg has been tested with:
+
+- Python 3.10  
+- PyTorch 2.x  
+- CUDA 12.x  
+- Ubuntu 22.04  
+
 
 ## 📌 Citation
 
